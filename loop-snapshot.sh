@@ -52,7 +52,7 @@ while true; do
       #if [ ${DIFF} -gt ${THRESHOLD} ]; then
         echo "rm -f ${TMP_OUTFILE}"
         rm -f ${TMP_OUTFILE} &
-	#sleep 1
+	sleep 0
         continue
       fi
     else
