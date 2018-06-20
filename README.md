@@ -8,9 +8,9 @@ rsync-snapshots.sh
 
 ## 1. install mjpg-streamer
 
-see [mjpg-streamer git](https://github.com/jacksonliam/mjpg-streamer)
+see [mjpg-streamer git site](https://github.com/jacksonliam/mjpg-streamer)
 
-## 2. copy scripts
+## 2. copy script files
 
 ```bash
 $ cd ~
