@@ -23,7 +23,7 @@ fi
 
 for d in ${DIRS}; do
     echo $d
-    if [ A`ls $d` = A ]; then
+    if [ "A`ls $d`" = A ]; then
 	echo "remove directory: $d"
 	rmdir $d
     fi
